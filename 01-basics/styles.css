@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* id */
+#product-overview{
+    background: #ff1b68;
+}
+
+/* class */
+.section-title{
+    color: #2ddf5c;
+}
+
+/* combinator */
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+
