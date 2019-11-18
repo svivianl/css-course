@@ -23,6 +23,6 @@ ol + div{
     display: none;
 }
 
-div + div:hover {
+div:last-of-type:hover {
     background-color: lightcoral;
 }
