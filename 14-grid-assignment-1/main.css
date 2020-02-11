@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  5em auto 5em;
+    grid-auto-columns: minmax(50px, auto);
+}
+
+.container{
+    background-color: darkgray;
+    border: solid black;
+    color: white;
+    margin: 10px;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+aside{
+    grid-column-start: 1;
+    grid-column-end: 1fr;
+    grid-row-start: 2;
+}
+
+main{
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    min-height: 100px;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
